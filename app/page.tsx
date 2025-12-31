@@ -12,7 +12,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-6">
-              欢迎来到我的个人博客
+              欢迎来到ww个人主页
             </h1>
             <p className="text-xl mb-8 text-primary-100 max-w-2xl mx-auto">
               分享技术、生活和思考的空间

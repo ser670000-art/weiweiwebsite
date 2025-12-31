@@ -1,13 +1,23 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Navbar() {
   return (
     <nav className="bg-white shadow-sm border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex items-center">
-            <Link href="/" className="text-2xl font-bold text-primary-600 hover:text-primary-700 transition-colors">
-              我的博客
+          <div className="flex items-center space-x-3">
+            <Link href="/" className="flex items-center space-x-3">
+              <Image 
+                src="/image.png" 
+                alt="ww个人主页" 
+                width={40} 
+                height={40} 
+                className="rounded-full object-cover"
+              />
+              <span className="text-2xl font-bold text-primary-600 hover:text-primary-700 transition-colors">
+                ww个人主页
+              </span>
             </Link>
           </div>
           <div className="flex space-x-8">

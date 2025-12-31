@@ -7,8 +7,8 @@ import Footer from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: '个人博客',
-  description: '分享技术、生活和思考的个人博客',
+  title: 'ww个人主页',
+  description: '分享技术、生活和思考的个人主页',
 }
 
 export default function RootLayout({
