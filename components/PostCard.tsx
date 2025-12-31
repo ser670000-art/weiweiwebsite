@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { format } from 'date-fns'
-import { zhCN } from 'date-fns/locale/zh-CN'
+import zhCN from 'date-fns/locale/zh-CN'
 import { Post } from '@/data/posts'
 
 interface PostCardProps {
