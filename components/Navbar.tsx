@@ -10,13 +10,13 @@ export default function Navbar() {
             <Link href="/" className="flex items-center space-x-3">
               <Image 
                 src="/image.png" 
-                alt="ww个人主页" 
-                width={40} 
-                height={40} 
-                className="rounded-full object-cover"
+                alt="BGA封装" 
+                width={48} 
+                height={48} 
+                className="rounded-lg object-cover"
               />
               <span className="text-2xl font-bold text-primary-600 hover:text-primary-700 transition-colors">
-                ww个人主页
+                BGA封装
               </span>
             </Link>
           </div>

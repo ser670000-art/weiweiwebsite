@@ -12,10 +12,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-6">
-              欢迎来到ww个人主页
+              欢迎来到BGA封装
             </h1>
             <p className="text-xl mb-8 text-primary-100 max-w-2xl mx-auto">
-              分享技术、生活和思考的空间
+              分享BGA封装技术、学习和思考的空间
             </p>
             <Link
               href="/blog"
@@ -56,15 +56,15 @@ export default function Home() {
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">关于博客</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">关于BGA封装</h2>
             <div className="prose prose-lg mx-auto text-gray-700">
               <p className="text-lg leading-relaxed">
-                这个博客是我分享学习心得、技术思考和生活感悟的地方。
-                在这里，你会找到关于 Web 开发、前端技术、编程实践等内容。
-                希望通过这些文章，能够帮助到正在学习或工作的朋友们。
+                BGA封装是一种先进的集成电路封装技术，广泛应用于高性能电子器件。
+                这个网站致力于分享BGA封装相关的技术知识、应用经验和最新发展。
+                在这里，你会找到关于封装设计、焊接技术、应用案例等内容。
               </p>
               <p className="text-lg leading-relaxed mt-4">
-                如果你有任何问题或建议，欢迎随时联系我。让我们一起学习，共同进步！
+                如果你对BGA封装技术感兴趣，欢迎随时联系我们。让我们一起探索封装技术的奥秘！
               </p>
             </div>
             <Link
